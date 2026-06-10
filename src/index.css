@@ -1,0 +1,6 @@
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: #f8f7f4; }
+input[type="range"] { width: 100%; cursor: pointer; }
+button { cursor: pointer; background: transparent; border: 0.5px solid rgba(0,0,0,0.2); border-radius: 6px; padding: 5px 11px; font-size: 12px; }
+button:hover { background: rgba(0,0,0,0.05); }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
